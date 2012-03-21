@@ -1,6 +1,5 @@
 ChangeServer::Application.routes.draw do
-  root :to => 'games#index'
+  root :to => 'scores#index'
 
-  resources :games
-
+  resources :scores
 end
